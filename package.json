@@ -1,0 +1,59 @@
+{
+  "name": "cs326-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "license": "AGPL-version-3.0",
+  "private": false,
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dominicrutk/cs326-project"
+  },
+  "bugs": "",
+  "keywords": [],
+  "author": {
+    "name": "UHike",
+    "email": "",
+    "url": "https://github.com/dominicrutk/cs326-project"
+  },
+  "contributors": [
+    {
+      "name": "Angelika Ladia",
+      "email": "aladia@umass.edu",
+      "url": "https://github.com/angelikaladia"
+    },
+    {
+      "name": "Connor Mitchell",
+      "email": "cjmitchell@umass.edu",
+      "url": "https://github.com/cjmitchell44"
+    },
+    {
+      "name": "Erica (Thu) Phan",
+      "email": "tnphan@umass.edu",
+      "url": "https://github.com/thuphan1312"
+    },
+    {
+      "name": "Dominic Rutkowski",
+      "email": "drutkowski@umass.edu",
+      "url": "https://github.com/dominicrutk"
+    }
+  ],
+  "scripts": {
+    "dev": "",
+    "test": "",
+    "validate-html": "html-validate 'src/**/*.html'",
+    "prettier": "prettier src -write",
+    "milestone-01": "http-server src/docs/milestone-01 -p 3000 -c-1 -o -s"
+  },
+  "devDependencies": {
+    "html-validate": "^8.13.0",
+    "http-server": "^14.1.1",
+    "prettier": "3.2.5"
+  }
+}
