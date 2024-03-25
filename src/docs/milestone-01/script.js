@@ -1,7 +1,9 @@
+// Setting Header Images on a Slideshow that change every 5 seconds
 function headerImageSlider() {
     let i = 0
     let slider = document.getElementById('header-slide')
-    const header_interval = setInterval(function() {
+    // Setting an interval that goes through 3 header images (header0,1,2) every 5 secons
+    setInterval(function() {
         if (i >= 0 && i < 2) {
             i++
             slider.src = "image/header" + i + ".jpg"

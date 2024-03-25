@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* Header Image and Text */
 .header-image {
   position: relative;
   display: inline-block;
@@ -27,6 +28,7 @@
   text-align: center;
 }
 
+/* Team Section */
 #team {
   display: block;
   font-family: 'Georgia';
